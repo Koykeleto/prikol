@@ -15,7 +15,7 @@ function examResultsCheck(math, english, russian){
         });
     }
     else if (Number(math) < 4 || Number(english) < 4 ||  Number(russian) < 4){
-        alert('Поздравляем, у вас как минимум одна переседача!')
+        alert('Поздравляем, у вас как минимум одна пересдача!')
         confetti({
             particleCount: 2000,
             spread: 160,
