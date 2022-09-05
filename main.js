@@ -4,7 +4,7 @@ let russian = prompt('Оценка по русскому: ');
 
 
 function examResultsCheck(math, english, russian){
-    if ((Number(math) + Number(english) + Number(russian)) < 6){
+    if ((Number(math) < 4 && Number(english) < 4 &&  Number(russian) < 4)){
         alert('Поздравляем, вас отчислили!')
         confetti({
             particleCount: 2000,
